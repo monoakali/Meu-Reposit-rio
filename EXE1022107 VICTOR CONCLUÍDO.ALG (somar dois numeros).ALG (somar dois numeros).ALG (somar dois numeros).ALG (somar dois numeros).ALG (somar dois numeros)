@@ -1,0 +1,24 @@
+Algoritmo "exe11022107"
+   // Disciplina   : [Linguagem e Lógica de Programação]
+   // Professor   : jose
+   // Descrição   :  . Faça um algoritmo para somar dois números,
+   //e mostre os mesmos e o resultado.
+   // Autor(a)    : Victor Adriano
+   // Data atual  : 21/07/2025
+Var
+// entrada de dados
+
+   n1,n2,soma:         inteiro
+
+Inicio
+      escreva("informe o primeiro número: ")
+      leia(n1)
+      escreva ("informe o segundo número: ")
+      leia(n2)
+      soma <- (n1 + n2)
+      escreva ("o valor do primeiro número",n1)
+      escreval ("")
+      escreva ("o valor do segundo número",n2 )
+      escreval("")
+      escreval ("o reasultado da soma dos dois números:",soma)
+Fimalgoritmo
