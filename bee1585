@@ -1,0 +1,10 @@
+def areaLosango (D,d):
+    return(D*d)/2
+
+N = int(input())
+
+for _ in range(N):
+    x , y = map(int , input().split())
+    area = areaLosango(x, y)
+
+    print (f"{area} cm2")

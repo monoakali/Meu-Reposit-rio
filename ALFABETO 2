@@ -1,0 +1,7 @@
+L = input()
+
+
+posicao = ord(L) - ord('A') + 1
+
+
+print(posicao)
