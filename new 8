@@ -1,0 +1,4 @@
+numero = input()
+def quadrado(numero):
+ return float(numero) * float(numero)
+print (numero)
